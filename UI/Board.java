@@ -23,7 +23,7 @@ public class Board extends Component {
 	
 	public Board(Control cont) {
 		try {
-			full = ImageIO.read(new File("/home/adam/workspace/Pokemon Drinking game/scaled_square_board.jpg"));
+			full = ImageIO.read(new File("src/Resources/scaled_square_board.jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

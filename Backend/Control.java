@@ -20,7 +20,7 @@ public class Control {
 	public GameFrame frame;
 	public Player active;
 	int activeIndex;
-	public final String playerIcon = "/home/adam/workspace/Pokemon Drinking game/player.png";
+	public final File playerIcon = new File("src/Resources/player.png");
 	BufferedImage icon;
 	private final Color[] colors = { Color.red, Color.orange, Color.green,
 			Color.blue, Color.pink, Color.magenta, Color.cyan };
@@ -42,7 +42,7 @@ public class Control {
 		p.setStarter(s);
 		p.id = players.size();
 		try {
-			icon = ImageIO.read(new File(playerIcon));
+			icon = ImageIO.read(playerIcon);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
