@@ -1,1 +1,3 @@
 This project is a java program to emulate the Pokemon drinking game by raith. We were inspired by Pokebooze.io and hope to have it working beyond the capabilities of our inspirations soon.
+
+The Game is made rather simple by the program. On the setup screen, add Players by name and starter (irrelevant but fun). Then, click Ready, and the game will begin. On each roll, the number rolled is displayed, and the tile landed upon is displayed. The punishment is often drinking (it is a drinking game after all) but sometimes the punishments are things which the game cares about (skipped turns, extra movement etc). The game will track all moving and turns, all you do is click, play, drink. GOOD LUCK!
